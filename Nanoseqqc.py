@@ -1,5 +1,3 @@
-
-
 ##A Snakemake workflow to process Nanopore fastq files.
 
 import glob
@@ -11,6 +9,8 @@ from snakemake.utils import R
 from snakemake.io import glob_wildcards
 import re
 from os.path import join
+
+
 
 
 #################
